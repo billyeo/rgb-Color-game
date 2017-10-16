@@ -82,9 +82,9 @@ for(var i=0;  i< squares.length; i++) {
 }
 
 //function for changing color of all the squares upon choosing correct choice
-function changeColors() {
+function changeColors(color) {
 	for(var i=0; i< colors.length; i++) {
-		squares[i].display.background = color;
+		squares[i].style.background = color;
 	}
 }
 
