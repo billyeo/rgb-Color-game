@@ -1,5 +1,5 @@
 body {
-	background: #232323;
+	background: rgb(0,21,74);
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 }
@@ -8,7 +8,7 @@ h1 {
 	color: white;
 	text-align: center;
 	line-height: 1.1;
-	background: #e91e63;
+	background: rgb(0,41,44);
 	margin: 0;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .selected{
-	background-color: #e91e63;
+	background-color: rgb(0,41,44);
 	color: white;
 }
 
