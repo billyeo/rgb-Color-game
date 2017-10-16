@@ -36,10 +36,8 @@ function setUpSquares() {
 
             // let user know that they picked the wrong one    
             messageDisplay.textContent = "Try Again!";
-            }
-            
+            }         
         });
-
     }
 }
 
@@ -51,17 +49,8 @@ function setUpModeButtons() {
             modeButton[0].classList.remove('active');
             modeButton[1].classList.remove('active');
             this.classList.add('active');
-
-            //        code before refactoring using if statement instead of ternary operator
-            //         if (this.textContent === "Easy") {
-            //             mode = 3;
-            //         } else {
-            //             mode = 6;
-            //         }
             this.textContent === "Easy" ? mode = 3 : mode = 6;
-
             reset();
-
         });
 
     }
@@ -119,7 +108,6 @@ function pickColor() {
     return colors[randomNum];
 }
 
-
 function generateRandomColor(num) {
     
     // make an array 
@@ -128,11 +116,8 @@ function generateRandomColor(num) {
     // repeated num times
     for(var i = 0; i < num; i++){
         // get random color and push to the array    
-        arr.push(randomColor());
-        
+        arr.push(randomColor());  
     }
-    
-    
     // return that array
     return arr;
 }
@@ -157,6 +142,5 @@ function init() {
     reset();
 
 }
-
 
 init()
