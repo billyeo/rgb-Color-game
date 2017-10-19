@@ -53,7 +53,7 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-weight: 700;
-	color: #e91e63;
+	color: #42f477;
 	letter-spacing: 1px;
 	font-size: inherit;
 	-webkit-transition: all 0.3s;
@@ -63,7 +63,7 @@ button {
 
 button:hover {
 	color: grey;
-	background: #e91e63;
+	background: #42f477;
 }
 
 #message {
