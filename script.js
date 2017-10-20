@@ -19,9 +19,6 @@ function setUpSquares() {
         // when square is clicked, get color of the square
         squares[i].addEventListener('click', function(){
             var colorClicked = this.style.background;
-            //console.log(colorClicked, pickedColor);
-
-            // compare the color to the pickedColor
             if(colorClicked === pickedColor) {
                 // if equal, display the 'You Win'/game over
                 // let user know that they picked the correct color    
